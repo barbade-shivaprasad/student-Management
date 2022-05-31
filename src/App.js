@@ -190,7 +190,7 @@ function App() {
 
         <div className="cards">
           <h2 style={{marginBottom:"60px"}}>Registered Students</h2>
-          <Grid columns={3}>
+          <Grid columns={window.innerWidth < 700 ?1:3}>
             {data
               ? data.map((ele) => {
                   return (

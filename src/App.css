@@ -39,3 +39,13 @@ h2{
 img{
   height: 35vh !important;
 }
+
+@media only screen and (max-width: 700px) {
+
+    Form div{
+      flex-direction: column;
+    }
+    img{
+      height: unset;
+    }
+}
